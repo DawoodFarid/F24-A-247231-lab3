@@ -9,7 +9,6 @@ function totalNumbers() {
 
     return total;
 }
-
 function largestNumber() {
     let largest = numbers[0];
 
@@ -21,7 +20,6 @@ function largestNumber() {
 
     return largest;
 }
-
 function biggerThanFirst() {
     let count = 0;
 
