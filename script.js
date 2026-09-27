@@ -38,3 +38,11 @@ console.log(totalNumbers());
 console.log(largestNumber());
 console.log(biggerThanFirst());
 
+let show = document.querySelector("#show");
+
+show.addEventListener("click", function () {
+    document.querySelector("#total").textContent = totalNumbers();
+    document.querySelector("#big").textContent = largestNumber();
+    document.querySelector("#above").textContent = biggerThanFirst();
+});
+
