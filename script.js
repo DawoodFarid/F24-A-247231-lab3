@@ -1,4 +1,3 @@
-
 let numbers = [2, 3, 1];
 
 function totalNumbers() {
@@ -11,5 +10,18 @@ function totalNumbers() {
     return total;
 }
 
+function largestNumber() {
+    let largest = numbers[0];
+
+    for (let number of numbers) {
+        if (number > largest) {
+            largest = number;
+        }
+    }
+
+    return largest;
+}
+
 console.log(totalNumbers());
+console.log(largestNumber());
 
